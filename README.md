@@ -13,6 +13,8 @@
 
 🌲 [Branch Convention](https://github.com/UMC-Closit/FrontEnd/wiki/Branch-Convention)
 
+🎯 [Issue & PR Convention](https://github.com/UMC-Closit/FrontEnd/wiki/Issue-&-PR-Convention)
+
 ---
 ### Android Studio Settings
 1. Android Studio 버전: Ladybug
