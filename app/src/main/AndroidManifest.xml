@@ -12,11 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UMC_Closit"
         tools:targetApi="31">
-        <!--<activity
-            android:name=".TimelineActivity"
-            android:exported="false" />-->
         <activity
-            android:name=".ui.timeline.TimelineActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.timeline.DetailActivity" />
-        <activity android:name=".ui.timeline.notification.NotificationActivity"/>
     </application>
 
 </manifest>
