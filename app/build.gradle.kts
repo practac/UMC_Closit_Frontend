@@ -1,13 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("kotlin-parcelize")
 }
 
 android {
     namespace = "com.example.umc_closit"
-    compileSdk = 35
-    viewBinding.isEnabled = true
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.umc_closit"
@@ -47,8 +45,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    // Glide
-    implementation("com.github.bumptech.glide:glide:4.15.1")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
 }
